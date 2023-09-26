@@ -1,0 +1,22 @@
+void display(int arr, int);
+void input (int i);
+int main(){
+   void display();
+   void input();
+   return 0;
+}
+void input(int i){
+for(int i=0;i<10;i++){
+    arr[i]=10;
+    cin>>arr[i];
+  }
+}
+void display (int arr,int len)
+{
+    for (int i=0; i<10 ; i++){
+        if(arr[i]>=10)
+        {
+            cout<<"the number is greater than 10"<<i<<endl;
+        }
+    }
+}
